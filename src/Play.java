@@ -1,6 +1,11 @@
 import javax.swing.JFrame;
 
-
+/**
+ * Code for my version of game Flappy Bird
+ * 
+ * @author Graca Nermin
+ *
+ */
 public class Play {
 
 	public static void main(String[] args) {

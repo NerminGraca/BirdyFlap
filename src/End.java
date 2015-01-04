@@ -8,8 +8,12 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
 
-public class End extends JFrame implements ActionListener {
+public class End extends JFrame {
 
+	/**
+	 * Constructor of object End
+	 * @param string
+	 */
 	public End(String string) {
 		setSize(175, 150);
 		setLocation(100, 100);
@@ -30,12 +34,6 @@ public class End extends JFrame implements ActionListener {
 		panel.add(button, BorderLayout.SOUTH);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
-	}
-
-	@Override
-	public void actionPerformed(ActionEvent e) {
-		
-
 	}
 
 }
